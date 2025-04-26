@@ -1,0 +1,28 @@
+body {
+                font-family: Arial, sans-serif;
+              }
+              
+              .container {
+                display: flex;
+                height: 100vh;
+                width: 100px;
+              }
+              
+              .left-panel, .right-panel {
+                flex: 1;
+                padding: 40px;
+                box-sizing: border-box;
+              }
+              
+              .left-panel {
+                background-color: rgb(145, 199, 196);
+              }
+              
+              .right-panel {
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+              }
+              
